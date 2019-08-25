@@ -27,6 +27,7 @@ def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.length.times do |i|
+    case 
     if arr[i].include?(cheese_types[0])
       return cheese_types[0]
     end
